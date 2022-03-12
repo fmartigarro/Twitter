@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TwitterLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ZiX-Bn-8MX">
+                                <rect key="frame" x="135.5" y="221.5" width="104" height="92"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="92" id="IXH-Of-9JH"/>
+                                    <constraint firstAttribute="width" constant="104" id="e8g-pU-xfg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3F-r6-sQs">
+                                <rect key="frame" x="143.5" y="323.5" width="88" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.29889625310000001" green="0.61619037389999998" blue="0.92160642150000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ZiX-Bn-8MX" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="135.5" id="0dt-CH-SLW"/>
+                            <constraint firstItem="C3F-r6-sQs" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="143.5" id="5eF-df-BY2"/>
+                            <constraint firstItem="C3F-r6-sQs" firstAttribute="top" secondItem="ZiX-Bn-8MX" secondAttribute="bottom" constant="8" symbolic="YES" id="60c-Ja-Y6m"/>
+                            <constraint firstItem="C3F-r6-sQs" firstAttribute="top" secondItem="ZiX-Bn-8MX" secondAttribute="bottom" constant="10" id="7P6-Vg-2ry"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="C3F-r6-sQs" secondAttribute="trailing" constant="143.5" id="A9D-tS-72p"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="ZiX-Bn-8MX" secondAttribute="trailing" constant="135.5" id="B27-Mm-6Ey"/>
+                            <constraint firstItem="C3F-r6-sQs" firstAttribute="top" secondItem="ZiX-Bn-8MX" secondAttribute="bottom" constant="8" symbolic="YES" id="MwC-x8-9Dn"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="C3F-r6-sQs" secondAttribute="bottom" constant="318" id="vPr-Yk-hi2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TwitterLogo" width="120" height="120"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
