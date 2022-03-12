@@ -23,4 +23,4 @@ The following features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/BJ8tlXl' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://github.com/fmartigarro/Twitter/blob/main/TwitterGif.mov)
