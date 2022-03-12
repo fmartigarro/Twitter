@@ -23,4 +23,4 @@ The following features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![](https://github.com/fmartigarro/Twitter/blob/main/TwitterGif.mov)
+![](https://github.com/fmartigarro/Twitter/blob/main/TwitterGif.gif)
