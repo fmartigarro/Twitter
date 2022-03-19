@@ -2,7 +2,7 @@
 
 This is a basic twitter app to view, compose, favorite, and retweet tweets.
 
-Time spent: **8** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
@@ -31,7 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 This is a basic twitter app to read your tweets.
 
-Time spent: 8 hours spent in total
+Time spent: **8** hours spent in total
 
 ## User Stories
 
